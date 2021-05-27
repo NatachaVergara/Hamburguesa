@@ -118,7 +118,7 @@ footer p{
     margin-top: 1px;
 
 }
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 450px)
 {
     main{
         margin-bottom: 97px;
@@ -145,6 +145,18 @@ footer p{
         
     }
 }
-
-
-
+@media (min-width: 640px) and (max-width: 800px) and (orientation: landscape)
+{
+    header {
+        width: 90%;
+        margin: auto;
+    }
+    main {
+        margin-top: 20px;
+        margin-bottom: 23px;
+    }
+    footer {
+        background-color: black;
+        width: 90%;
+        margin: auto;
+}
